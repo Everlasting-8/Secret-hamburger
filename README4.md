@@ -13,12 +13,10 @@ When writing a string to the character device /dev/var4, count the number of spa
 1. Enter the source program directory
 2. execute make
 3. execute insmod var4.ko
-4. View device number: 
-	cat /proc/devices | grep var4  ===> 509 var4
-5. Create a device node in the /dev directory according to the device number
-    cd /dev
-    mknod var4 c 509 0
-    ls | grep var4  ===> var4
+4. execute file a.out
+5. execute cat /proc/var4
+
+
 
 ## Инструкция пользователя
 
