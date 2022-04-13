@@ -13,8 +13,9 @@ When writing a string to the character device /dev/var4, count the number of spa
 1. Enter the source program directory
 2. execute make
 3. execute insmod var4.ko
-4. execute file a.out
-5. execute cat /proc/var4
+4. execute gcc test.c
+5. execute file a.out
+6. execute cat /proc/var4
 
 
 
