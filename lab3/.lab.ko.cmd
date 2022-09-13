@@ -1,0 +1,1 @@
+cmd_/home/dijia/io_lab3/lab_1/lab.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/dijia/io_lab3/lab_1/lab.ko /home/dijia/io_lab3/lab_1/lab.o /home/dijia/io_lab3/lab_1/lab.mod.o ;  true
